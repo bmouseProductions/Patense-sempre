@@ -123,10 +123,10 @@ header {
   right: 0;
   bottom: 0;
   left: 0;
-  background-color: #0000009a;
+  background-color: #000000;
   filter: brightness(0.5);
   z-index: -1;
-  opacity: 50%;
+  opacity: 60%;
   border-radius: 15px;
 }
 
@@ -184,6 +184,7 @@ header {
 }
 
 .bg-odores {
+  background-color: #fff;
   background-image: url(./assets/img/faixacinza@2x.png);
   background-position: center center;
 }

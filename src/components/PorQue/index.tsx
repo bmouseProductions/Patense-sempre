@@ -9,10 +9,10 @@ export const PorQue = () => {
     >
       <div className="bg-animado w-full py-5"></div>
       <div className="flex flex-col px-6 lg:flex-row items-center justify-center lg:justify-between lg:px-52 lg:py-20">
-        <div className="flex gap-4 flex-col">
+        <div className="flex gap-4 flex-1 flex-col">
           <h1 className="text-4xl lg:text-6xl texto-animado">
-            Por que a Patense é uma empresa com <br />
-            <strong className=" texto-animado">
+            Por que a Patense é uma empresa com
+            <strong className="ms-2 texto-animado">
               Selo Verde de Sustentabilidade?
             </strong>
           </h1>
@@ -32,7 +32,7 @@ export const PorQue = () => {
           </p>
         </div>
         <div className="">
-          <img src={Selo} alt=""></img>
+          <img src={Selo} alt="" width={240}></img>
         </div>
       </div>
     </section>

@@ -10,7 +10,7 @@ export const Energia = () => {
       <div className="p-6 lg:px-52 lg:py-20 flex flex-col lg:flex-row items-center lg:justify-between">
         <div className="flex flex-col p-6 gap-5 lg:items-center lg:text-center bg-teste lg:p-10 lg:gap-10 shadow-lg">
           <h1 className="text-4xl lg:text-6xl texto-animado lg:h-20 capitalize">
-            Energia
+            Cogeração Energia
           </h1>
           <p className="text-xl text-white lg:w-8/12">
             A cogeração de energia encontra-se implantada na unidade de Itaúna,
