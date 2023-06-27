@@ -45,7 +45,10 @@ export const ODS = () => {
             <span className="text-white text-xl font-bold">
               {" "}
               Para saber mais sobre cada uma das ODS da ONU,{" "}
-              <a href="#" className="text-white">
+              <a
+                href="https://odsbrasil.gov.br/"
+                className="text-white underline-offset-1"
+              >
                 clique aqui.
               </a>
             </span>
