@@ -27,8 +27,8 @@ export const Fertirrigacao = () => {
             ano.
           </p>
         </div>
-        <div className="flex-1">
-          <img src={Irrigation} alt="" className="rounded-xl shadow-2xl"></img>
+        <div className="flex-1 md:p-10 lg:p-0">
+          <img src={Irrigation} alt="" className="rounded-xl shadow-2xl "></img>
         </div>
       </div>
     </section>

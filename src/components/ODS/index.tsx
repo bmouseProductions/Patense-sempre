@@ -15,8 +15,8 @@ export const ODS = () => {
       /* style={{ backgroundColor: "#EDEDED" }} */
     >
       <div className="bg-animado "></div>
-      <div className="px-6 py-6 gap-10 lg:gap-0 lg:p-20 2xl:px-52 2xl:py-20 flex flex-col lg:flex-row-reverse items-center justify-center lg:justify-between ">
-        <div className=" bg-patense flex flex-col gap-10 lg:flex-row-reverse p-3 lg:p-5  xl:p-10 lg:gap-0">
+      <div className="px-6 py-6 gap-10 lg:gap-0  lg:p-20 2xl:px-52 2xl:py-20 flex flex-col lg:flex-row-reverse items-center justify-center lg:justify-between ">
+        <div className=" bg-patense flex flex-col gap-10 lg:flex-row-reverse p-3 md:p-5  xl:p-10 lg:gap-0">
           <div className="flex lg:items-end flex-col lg:text-right gap-3 lg:ms-6 2xl:ms-0">
             <h1 className="text-4xl lg:text-4xl 2xl:text-6xl texto-animado">
               <strong>A Patense atende aos ODS da ONU</strong>
@@ -53,14 +53,42 @@ export const ODS = () => {
               </a>
             </span>
           </div>
-          <div className="lg:me-3 grid lg:grid-cols-2 2xl:grid-cols-3 gap-3">
-            <img src={seteods} alt="" className="" width={600}></img>
-            <img src={oitoods} alt=""></img>
-            <img src={noveods} alt=""></img>
-            <img src={dozeods} alt=""></img>
-            <img src={trezeods} alt=""></img>
-            <img src={quatorzeods} alt=""></img>
-            <img src={quinzeods} alt=""></img>
+          <div className="lg:me-3 grid grid-cols-2 md:grid-cols-3 md:items-center lg:grid-cols-2  2xl:grid-cols-2 gap-3">
+            <img
+              src={seteods}
+              alt=""
+              className="w-[200px] md:w-[200px] lg:w-[600px] rounded-lg"
+            ></img>
+            <img
+              src={oitoods}
+              alt=""
+              className="w-[200px] md:w-[200px] rounded-lg lg:w-[600px]"
+            ></img>
+            <img
+              src={noveods}
+              alt=""
+              className="w-[200px] md:w-[200px] rounded-lg lg:w-[600px]"
+            ></img>
+            <img
+              src={dozeods}
+              alt=""
+              className="w-[200px] md:w-[200px] rounded-lg lg:w-[600px]"
+            ></img>
+            <img
+              src={trezeods}
+              alt=""
+              className="w-[200px] md:w-[200px] rounded-lg lg:w-[600px]"
+            ></img>
+            <img
+              src={quatorzeods}
+              alt=""
+              className="w-[200px] md:w-[200px] rounded-lg lg:w-[600px]"
+            ></img>
+            <img
+              src={quinzeods}
+              alt=""
+              className="w-[200px] md:w-[200px] rounded-lg lg:w-[600px]"
+            ></img>
           </div>
         </div>
       </div>

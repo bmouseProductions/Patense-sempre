@@ -16,17 +16,17 @@ export const PorQue = () => {
               Selo Verde de Sustentabilidade?
             </strong>
           </h1>
-          <p className="text-xl text-white 2xl:w-8/12">
+          <p className="text-lg 2xl:text-xl text-white 2xl:w-8/12">
             A reciclagem é inerente ao rendering. Como líder no setor, a Patense
             garante destinação sustentável a toneladas de produtos de origem
             animal a cada dia.
           </p>
-          <p className="text-xl  text-white 2xl:w-8/12">
+          <p className="text-lg 2xl:text-xl  text-white 2xl:w-8/12">
             E vamos além na questão ambiental, nossas ações incluem desde
             estações de tratamento e reflorestamento até conscientização a
             colaboradores e comunidades.
           </p>
-          <p className="text-xl  text-white 2xl:w-8/12">
+          <p className="text-lg 2xl:text-xl  text-white 2xl:w-8/12">
             Sustentabilidade é mais que compromisso para nós: é a essência desta
             atividade e nossa grande inspiração.
           </p>

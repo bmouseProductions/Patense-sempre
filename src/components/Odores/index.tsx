@@ -33,7 +33,7 @@ export const Odores = () => {
             </p>
           </div>
           <div className="flex-1">
-            <img src={Logo} alt="" className=""></img>
+            <img src={Logo} alt="" className="md:w-96 "></img>
           </div>
         </div>
       </div>
