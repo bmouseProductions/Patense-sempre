@@ -17,7 +17,7 @@ export const Empresa = () => {
           <strong className="">Selo Verde de Sustentabilidade.</strong>
         </h1>
         <button className="bg-animado p-5 lg:px-10 lg:py-5 rounded-xl text-white font-bold shadow-2xl">
-          VISITE O NOSSO SITE
+          <a href="https://patense.com.br/">VISITE O NOSSO SITE</a>
         </button>
         <div className="flex flex-col items-center justify-center gap-5 lg:gap-10">
           <h1 className="text-2xl lg:text-4xl capitalize font-semibold text-green-600">
@@ -25,18 +25,26 @@ export const Empresa = () => {
           </h1>
           <ul className="flex gap-6 items-center justify-center">
             <li className="flex items-center justify-center">
-              <a href="http://" target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://www.instagram.com/patense/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <img src={Instagram} alt="" width={40}></img>
               </a>
             </li>
             <li className="flex items-center justify-center">
-              <a href="http://" target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://www.facebook.com/empresapatense"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <img src={Facebook} alt="" width={40}></img>
               </a>
             </li>
             <li className="flex items-center justify-center m-auto text-center">
               <a
-                href="http://"
+                href="https://www.youtube.com/user/empresapatense"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-center m-auto text-center"
@@ -46,7 +54,7 @@ export const Empresa = () => {
             </li>
             <li className="">
               <a
-                href="http://"
+                href="https://www.linkedin.com/company/grupopatense/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-center"
