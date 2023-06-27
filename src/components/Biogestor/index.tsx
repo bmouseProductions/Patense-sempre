@@ -7,12 +7,12 @@ export const Biogestor = () => {
       data-aos-duration="2000"
     >
       <div className="bg-animado px-3 lg:px-3"></div>
-      <div className="p-6 lg:px-52 lg:py-20 flex flex-row-reverse justify-between">
-        <div className="flex flex-col p-5 gap-5 lg:text-center lg:items-center  lg:gap-10 bg-teste lg:p-10">
-          <h1 className="text-4xl lg:text-6xl  texto-animado lg:h-20 capitalize">
+      <div className="p-6 lg:p-20 2xl:px-52 2xl:py-20 flex flex-row-reverse justify-between">
+        <div className="flex flex-col p-5 gap-5 lg:text-center lg:items-center lg:gap-5 2xl:gap-10 bg-teste lg:p-5 xl:p-10">
+          <h1 className="text-4xl xl:text-6xl  texto-animado xl:h-20 capitalize">
             Biogestor{" "}
           </h1>
-          <p className="text-xl text-white lg:w-8/12">
+          <p className="text-lg 2xl:text-xl text-white 2xl:w-8/12">
             Para o tratamento do efluente líquido, ou seja, o esgoto gerado em
             seu processo produtivo, na descarga dos caminhões e na lavagem de
             veículos, a Patense utiliza nas unidades de Patos de Minas, Tanguá e

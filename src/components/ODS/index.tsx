@@ -15,13 +15,13 @@ export const ODS = () => {
       /* style={{ backgroundColor: "#EDEDED" }} */
     >
       <div className="bg-animado "></div>
-      <div className="px-6 py-6 gap-10 lg:gap-0 lg:px-52 lg:py-20 flex flex-col lg:flex-row-reverse items-center justify-center lg:justify-between ">
-        <div className=" bg-patense flex flex-col gap-10 lg:flex-row-reverse p-3 lg:p-10 lg:gap-0">
-          <div className="flex lg:items-end flex-col lg:text-right gap-3">
-            <h1 className="text-4xl  lg:text-6xl texto-animado">
+      <div className="px-6 py-6 gap-10 lg:gap-0 lg:p-20 2xl:px-52 2xl:py-20 flex flex-col lg:flex-row-reverse items-center justify-center lg:justify-between ">
+        <div className=" bg-patense flex flex-col gap-10 lg:flex-row-reverse p-3 lg:p-5  xl:p-10 lg:gap-0">
+          <div className="flex lg:items-end flex-col lg:text-right gap-3 lg:ms-6 2xl:ms-0">
+            <h1 className="text-4xl lg:text-4xl 2xl:text-6xl texto-animado">
               <strong>A Patense atende aos ODS da ONU</strong>
             </h1>
-            <p className="text-xl text-white lg:w-10/12">
+            <p className="2xl:text-xl text-white 2xl:w-10/12">
               Com o lançamento da Agenda 2030 pela ONU em 2015, foi elaborado um
               plano de ação para tornar o planeta e as atividades nele
               desenvolvidas mais sustentáveis para a sociedade e para o meio
@@ -30,7 +30,7 @@ export const ODS = () => {
               utilizando esses objetivos como norteadores. Confira abaixo os ODS
               mais alinhados ao nosso negócio:
             </p>
-            <p className="text-xl text-white lg:w-8/12">
+            <p className="2xl:text-xl text-white 2xl:w-8/12">
               Nossas ações que estão alinhadas com os objetivos ocorrem em todo
               o negócio, desde a coleta dos resíduos utilizados como matéria
               prima (subprodutos provenientes do abate animal), produção de
@@ -42,7 +42,7 @@ export const ODS = () => {
               combustível renovável (cavaco de eucalipto) até o modelo de
               governança corporativa.
             </p>
-            <span className="text-white text-xl font-bold">
+            <span className="text-white text-lg 2xl:text-xl font-bold">
               {" "}
               Para saber mais sobre cada uma das ODS da ONU,{" "}
               <a
@@ -53,7 +53,7 @@ export const ODS = () => {
               </a>
             </span>
           </div>
-          <div className="grid grid-cols-3 gap-3 ">
+          <div className="lg:me-3 grid lg:grid-cols-2 2xl:grid-cols-3 gap-3">
             <img src={seteods} alt="" className="" width={600}></img>
             <img src={oitoods} alt=""></img>
             <img src={noveods} alt=""></img>

@@ -11,17 +11,17 @@ export const Empresa = () => {
       data-aos="fade-right"
       data-aos-duration="2000"
     >
-      <div className="flex flex-col px-10 py-7 gap-5 items-center justify-center lg:px-80 lg:py-14 lg:gap-10">
-        <h1 className="text-4xl lg:text-5xl gradient-text text-center">
+      <div className="flex flex-col px-10 py-7 gap-5 items-center justify-center lg:px-28 lg:py-12 lg:gap-5  2xl:px-80 2xl:py-14 2xl:gap-10">
+        <h1 className="text-4xl xl:text-5xl gradient-text text-center">
           Selo Verde de Sustentabilidade. Conheça mais essa empresa com{" "}
           <strong className="">Selo Verde de Sustentabilidade.</strong>
         </h1>
-        <button className="bg-animado p-5 lg:px-10 lg:py-5 rounded-xl text-white font-bold shadow-2xl">
+        <button className="bg-animado p-5 xl:px-10 xl:py-5 rounded-xl text-white font-bold shadow-2xl">
           <a href="https://patense.com.br/">VISITE O NOSSO SITE</a>
         </button>
         <div className="flex flex-col items-center justify-center gap-5 lg:gap-10">
-          <h1 className="text-2xl lg:text-4xl capitalize font-semibold text-green-600">
-            Nossa redes sociais
+          <h1 className="text-2xl xl:text-4xl capitalize font-semibold text-green-600">
+            Nossas redes sociais
           </h1>
           <ul className="flex gap-6 items-center justify-center">
             <li className="flex items-center justify-center">
